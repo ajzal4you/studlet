@@ -9,7 +9,15 @@
  *
  * Copyright (c) 2016 Daniel Eden
  */
-
+.new-new-01{
+    width: 40%;
+    height: 40%;
+    padding-top: 25px;
+}
+.img-new-1{
+    width: 30%;
+    height: 30%;
+}
 .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -236,6 +244,10 @@
 .rubberBand {
     -webkit-animation-name: rubberBand;
     animation-name: rubberBand
+}
+.new-image1{
+    width: 20%;
+    height: 20%;
 }
 
 @-webkit-keyframes shake {
@@ -522,6 +534,10 @@
 .wobble {
     -webkit-animation-name: wobble;
     animation-name: wobble
+}
+.logo-studlet{
+    width: 40%;
+    height: inherit;
 }
 
 @-webkit-keyframes jello {
@@ -4220,7 +4236,7 @@ table {
 caption {
     padding-top: .75rem;
     padding-bottom: .75rem;
-    color: #6c757d;
+    color: #539dde;
     text-align: left;
     caption-side: bottom
 }
@@ -7232,7 +7248,8 @@ input[type="button"].btn-block {
 }
 
 .collapse:not(.show) {
-    display: none
+    display: none;
+    color: #00aff0;
 }
 
 .collapsing {
@@ -28136,7 +28153,7 @@ input[type="number"] {
 
 .search__property .position-relative .nav-tabs-02 .nav-item .nav-link.active {
     background: #dc3545;
-    color: #fff
+    color: #fff 
 }
 
 .search__property .position-relative .nav-tabs-02 .search__container input {
@@ -32453,7 +32470,7 @@ body.offcanvas-active {
     }
 
     .navbar-hover.navbar-dark .nav-item:hover .nav-link {
-        color: #fff
+        color: #000
     }
 
     .navbar-hover.navbar-light .nav-item:hover .nav-link {
